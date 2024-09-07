@@ -1,0 +1,62 @@
+/* PostList.module.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  .postList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .postItem {
+    background-color: #fff;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .postTitle {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .postContent {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .noPosts {
+    text-align: center;
+    color: #ff0000;
+  }
+
+  .createPost{
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+    margin-left: 20px;
+    background-color: #666;
+    justify-content: center;
+    padding: 5px;
+    width: 120px;
+    border: 4px solid gray;
+    text-align: center;
+    font-size: 1rem;
+    color: #ffffff;
+    cursor: pointer;
+  }

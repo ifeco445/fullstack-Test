@@ -1,0 +1,50 @@
+.friendListContainer {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    max-width: 500px;
+    margin: 20px auto;
+  }
+  
+  .friendList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .friendItem {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .addFriendForm {
+    margin-top: 20px;
+  }
+  
+  .friendIdInput {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: calc(100% - 120px);
+    margin-right: 10px;
+  }
+  
+  .addFriendButton {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .addFriendButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .message {
+    color: red;
+    margin-top: 10px;
+  }
+  
